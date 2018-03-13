@@ -3433,6 +3433,7 @@
 	</path>
 
 	<path name="headset-mic">
+		<path name="media-headset-mic"/>
 		<path name="gain-media-headset-mic"/>
 	</path>
 
@@ -3492,7 +3493,7 @@
 	</path>
 
 	<path name="voice-rec-headset-mic">
+		<path name="recognition-headset-mic"/>
 		<path name="gain-recognition-headset-mic"/>
 	</path>
 </mixer>
-
