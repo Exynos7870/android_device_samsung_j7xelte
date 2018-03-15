@@ -1,1 +1,2 @@
 add_lunch_combo lineage_j7xelte-userdebug
+add_lunch_combo cardinal_j7xelte-userdebug
