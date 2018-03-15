@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/on7xelte
+LOCAL_PATH := device/samsung/j7xelte
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
@@ -24,13 +24,13 @@ TARGET_SPECIFIC_HEADER_PATH += $(LOCAL_PATH)/include
 -include $(LOCAL_PATH)/product/*.mk
 
 # Dalvik Heap
-$(call inherit-product, frameworks/native/build/phone-xxhdpi-3072-dalvik-heap.mk)
+$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
 
 # Hwui Memory
-$(call inherit-product, frameworks/native/build/phone-xxhdpi-3072-hwui-memory.mk)
+$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
 
 # Inherit from Exynos7870-common
 $(call inherit-product, device/samsung/exynos7870-common/device-common.mk)
 
 # call the proprietary setup
-$(call inherit-product, vendor/samsung/on7xelte/on7xelte-vendor.mk)
+$(call inherit-product, vendor/samsung/j7xelte/j7xelte-vendor.mk)

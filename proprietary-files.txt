@@ -30,12 +30,6 @@ vendor/lib/libHpr_LocFace_mvfd_v1.0.so
 # DRM
 vendor/lib/mediadrm/libdrmclearkeyplugin.so
 
-# Fingerprint
-lib/libbauthserver.so
-lib/libbauthtzcommon.so
-lib/libegis_fp_normal_sensor_test.so
-lib/libsynaFpSensorTestNwd.so
-
 # GPS
 bin/gpsd
 etc/ca.pem
@@ -56,7 +50,6 @@ vendor/firmware/fimc_is_lib.bin
 vendor/firmware/mfc_fw.bin
 
 # Mobicore
-bin/mcDriverDaemon|616bd552fbbd56bd05cfe3441e27de92565854fc
 app/FFFFFFFF000000000000000000000001.drbin
 app/mcRegistry/00060308060501020000000000000000.tlbin
 app/mcRegistry/07010000000000000000000000000000.tlbin
@@ -66,8 +59,6 @@ app/mcRegistry/ffffffff00000000000000000000000b.tlbin
 app/mcRegistry/ffffffff00000000000000000000000c.tlbin
 app/mcRegistry/ffffffff00000000000000000000000d.tlbin
 app/mcRegistry/ffffffff00000000000000000000000f.tlbin
-app/mcRegistry/ffffffff00000000000000000000002e.tlbin
-app/mcRegistry/ffffffff00000000000000000000001f.tlbin
 app/mcRegistry/ffffffff000000000000000000000004.tlbin
 app/mcRegistry/ffffffff000000000000000000000005.tlbin
 app/mcRegistry/ffffffff000000000000000000000012.tlbin
@@ -78,13 +69,12 @@ app/mcRegistry/ffffffff000000000000000000000019.tlbin
 app/mcRegistry/ffffffff000000000000000000000041.tlbin
 app/mcRegistry/ffffffff000000000000000000000045.tlbin
 app/mcRegistry/ffffffff00000000000000000000000a.tlbin
-app/mcRegistry/ffffffffd0000000000000000000000e.tlbin
 app/mcRegistry/ffffffffd0000000000000000000000a.tlbin
 app/mcRegistry/ffffffffd00000000000000000000004.tlbin
 app/mcRegistry/ffffffffd00000000000000000000016.tlbin
 app/mcRegistry/fffffffff0000000000000000000001e.tlbin
-vendor/lib/libMcClient.so:lib/libMcClient.so|6e20b880efa7e430beacaacd9b2721ed22398478
-vendor/lib/libMcRegistry.so:lib/libMcRegistry.so
+vendor/lib/libMcClient.so
+vendor/lib/libMcRegistry.so
 
 # OMX
 lib/omx/libOMX.Exynos.AVC.Decoder.so|6b5690ea2755207a6c5dbbd704bd46e26979e997

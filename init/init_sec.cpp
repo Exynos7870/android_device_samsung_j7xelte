@@ -12,9 +12,9 @@
 
 #include "init_sec.h"
 
-#define MODEL_NAME_LEN 5  // e.g. "G610F"
-#define BUILD_NAME_LEN 8  // e.g. "DDU1BQH9"
-#define CODENAME_LEN   10 // e.g. "on7xeltedd"
+#define MODEL_NAME_LEN 5  // e.g. "J710F"
+#define BUILD_NAME_LEN 8  // e.g. "XXU3BHQ2"
+#define CODENAME_LEN   10 // e.g. "j7xeltexx"
 
 
 static void property_override(char const prop[], char const value[]) {
@@ -50,8 +50,8 @@ void vendor_load_properties()
     }
 
     if (device.size() == 0) {
-        LOG(ERROR) << "Could not detect device, forcing on7xeltedd";
-        device = "on7xelte";
+        LOG(ERROR) << "Could not detect device, forcing j7xeltexx";
+        device = "j7xelte";
     }
 
     name = device + "dd";
