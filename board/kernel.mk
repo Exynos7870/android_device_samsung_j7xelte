@@ -16,4 +16,4 @@
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/exynos7870
-TARGET_KERNEL_CONFIG := lineage_on7xelte_defconfig
+TARGET_KERNEL_CONFIG := lineage_j7xelte_defconfig
