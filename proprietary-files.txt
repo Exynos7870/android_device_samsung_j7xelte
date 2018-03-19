@@ -85,7 +85,6 @@ lib/omx/libOMX.Exynos.MPEG4.Decoder.so
 lib/omx/libOMX.Exynos.MPEG4.Encoder.so
 lib/omx/libOMX.Exynos.VP8.Decoder.so
 lib/omx/libOMX.Exynos.VP8.Encoder.so
-lib/omx/libOMX.Exynos.VP9.Decoder.so
 lib/omx/libOMX.Exynos.WMV.Decoder.so
 
 # Radio
