@@ -6,6 +6,10 @@ Copyright (C) 2018 Siddhant Naik
 
 Copyright (C) 2018 Oves Shaikh
 
+Copyright (C) 2018 Abhay Ruparel
+
+Copyright (C) 2018 Shivam Jha
+
 Copyright (C) 2018 Exynos7870 Dev Team.
 
  Licensed under the Apache License, Version 2.0 (the "License");
