@@ -3,14 +3,7 @@
 
 #include <string.h>
 
-enum device_variant {
-    VARIANT_J710F = 0,
-    VARIANT_J710FN,
-    VARIANT_J710K,
-    VARIANT_J710GN,
-    VARIANT_J710MN,
-    VARIANT_MAX
-};
+#define TOTAL_VARIANTS 6 //Total number of variants
 
 typedef struct {
     std::string model;
@@ -42,7 +35,7 @@ static const variant J710MN_model = {
     .codename = "j7xelteub"
 };
 
-static const variant *all_variants[VARIANT_MAX] = {
+static const variant *all_variants[TOTAL_VARIANTS] = {
     &J710F_model,
     &J710FN_model,
     &J710K_model,
@@ -51,3 +44,4 @@ static const variant *all_variants[VARIANT_MAX] = {
 };
 
 #endif // INIT_SEC_H
+
