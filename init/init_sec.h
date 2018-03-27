@@ -3,7 +3,7 @@
 
 #include <string.h>
 
-#define TOTAL_VARIANTS 6 //Total number of variants
+#define TOTAL_VARIANTS 5 //Total number of variants
 
 typedef struct {
     std::string model;
