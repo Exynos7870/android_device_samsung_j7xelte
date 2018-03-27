@@ -1,6 +1,5 @@
 #
 # Copyright (C) 2017 The LineageOS Project
-#                    ResurrectionRemix 
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,8 +20,8 @@ $(call inherit-product, device/samsung/j7xelte/device.mk)
 # Inherit from those products. Most specific first
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# Inherit some common RR stuff.
-$(call inherit-product, vendor/rr/common.mk)
+# Inherit some common RR stuff
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 # Device identifier
 PRODUCT_NAME := rr_j7xelte
@@ -30,3 +29,4 @@ PRODUCT_DEVICE := j7xelte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
