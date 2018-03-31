@@ -22,7 +22,6 @@ $(call inherit-product, device/samsung/j7xelte/device.mk)
 TARGET_ARCH := arm
 TARGET_DENSITY := xhdpi
 TARGET_BOOT_ANIMATION_RES := 720
-TARGET_INCLUDE_ARCORE := true
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 
