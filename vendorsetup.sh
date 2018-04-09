@@ -4,4 +4,5 @@ add_lunch_combo rr_j7xelte-userdebug
 add_lunch_combo bootleg_j7xelte-userdebug
 add_lunch_combo liquid_j7xelte-userdebug
 add_lunch_combo elixir_j7xelte-userdebug
+add_lunch_combo omni_j7xelte-userdebug
 
