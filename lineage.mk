@@ -25,12 +25,10 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier
 PRODUCT_NAME := lineage_j7xelte
+BOARD_VENDOR := samsung
 PRODUCT_DEVICE := j7xelte
 PRODUCT_BRAND := samsung
-PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="j7xeltexx-user 7.0 NRD90M J710FXXU4BRA1 release-keys"
-	
-BUILD_FINGERPRINT=samsung/j7xeltexx/j7xelte:7.0/NRD90M/J710FXXU4BRA1:user/release-keys
+        PRIVATE_BUILD_DESC="j7xeltexx-user 7.0 NRD90M J710FXXU4BRA1 release-keys"
+        BUILD_FINGERPRINT=samsung/j7xeltexx/j7xelte:7.0/NRD90M/J710FXXU4BRA1:user/release-keys
