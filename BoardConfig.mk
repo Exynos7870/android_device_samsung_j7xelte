@@ -33,5 +33,7 @@ TARGET_SYSTEM_PROP += $(LOCAL_PATH)/system.prop
 # Hidl
 DEVICE_MANIFEST_FILE := device/samsung/j7xelte/manifest.xml
 
+TARGET_HAS_WIDE_COLOR_DISPLAY := true
+
 # Inherit from the proprietary version
 -include vendor/samsung/j7xelte/BoardConfigVendor.mk
