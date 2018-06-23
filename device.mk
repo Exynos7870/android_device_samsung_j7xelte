@@ -23,6 +23,10 @@ TARGET_SPECIFIC_HEADER_PATH += $(LOCAL_PATH)/include
 # include splitted configs
 -include $(LOCAL_PATH)/product/*.mk
 
+# Vendor security patch level
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.lineage.build.vendor_security_patch=2017-08-01
+
 # Dalvik Heap
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
 
