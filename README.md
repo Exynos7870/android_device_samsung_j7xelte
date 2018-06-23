@@ -6,7 +6,7 @@ Copyright (C) 2018 Siddhant Naik
 
 Copyright (C) 2018 Oves Shaikh
 
-Copyright (C) 2018 Abhay Ruparel
+Copyright (C) 2018 Valera Chigir
 
 Copyright (C) 2018 Shivam Jha
 
