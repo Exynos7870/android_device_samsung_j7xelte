@@ -15,3 +15,6 @@ persist.sys.usb.config=mtp,adb
 #Enable ADB Debugging By Default & Disable USB Debugging
 
 sys.display-size=1920x1080
+
+# ro.product.first_api_level indicates the first api level the device has commercially launched on.
+ro.product.first_api_level=23
