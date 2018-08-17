@@ -1,1 +1,1 @@
-add_lunch_combo dot_j7xelte-userdebug
+add_lunch_combo aosp_j7xelte-userdebug

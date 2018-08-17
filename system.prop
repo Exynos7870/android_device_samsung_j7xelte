@@ -18,3 +18,13 @@ sys.display-size=1920x1080
 
 # ro.product.first_api_level indicates the first api level the device has commercially launched on.
 ro.product.first_api_level=23
+
+# Davlik Heap
+dalvik.vm.heapstartsize=8m
+dalvik.vm.heapgrowthlimit=288m
+dalvik.vm.heapsize=768m
+dalvik.vm.heaptargetutilization=0.75
+dalvik.vm.heapminfree=512k
+dalvik.vm.heapmaxfree=8m
+
+ro.sys.sdcardfs.legacy-mounting=1

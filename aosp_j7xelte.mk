@@ -20,11 +20,17 @@ $(call inherit-product, device/samsung/j7xelte/device.mk)
 # Inherit from those products. Most specific first
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/dot/config/common.mk)
+# Inherit some common PixelExperience stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+
+# Gapps
+TARGET_GAPPS_ARCH := arm
+TARGET_DENSITY := xhdpi
+TARGET_BOOT_ANIMATION_RES := 720
+TARGET_MINIMAL_APPS := true
 
 # Device identifier
-PRODUCT_NAME := dot_j7xelte
+PRODUCT_NAME := aosp_j7xelte
 BOARD_VENDOR := samsung
 PRODUCT_DEVICE := j7xelte
 PRODUCT_BRAND := samsung
