@@ -95,6 +95,11 @@ lib/libreference-ril.so
 lib/librilutils.so
 lib/libsecnativefeature.so
 
+# NFC
+lib/hw/nfc_nci.universal7870.so
+etc/sec_s3nrn80_rfreg.bin         
+vendor/firmware/sec_s3nrn80_firmware.bin
+
 # Sensors
 lib/hw/sensors.universal7870.so
 lib/libsensorservice.so
