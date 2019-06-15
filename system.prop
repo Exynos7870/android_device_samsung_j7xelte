@@ -2,7 +2,7 @@
 ro.sf.disable_triple_buffer=0
 
 # DPI
-ro.sf.lcd_density=280
+ro.sf.lcd_density=360
 
 # Sdcardfs
 ro.sys.sdcardfs=false
@@ -14,17 +14,38 @@ persist.service.debuggable=1
 persist.sys.usb.config=mtp,adb
 #Enable ADB Debugging By Default & Disable USB Debugging
 
-sys.display-size=1920x1080
 
 # ro.product.first_api_level indicates the first api level the device has commercially launched on.
 ro.product.first_api_level=23
 
+# Performance and battery
+wifi.supplicant_scan_interval=300
+persist.sys.purgeable_assets=1
+persist.service.pcsync.enable=0
+persist.service.lgospd.enable=0
+profiler.force_disable_err_rpt=1
+profiler.force_disable_ulog=1
+ro.config.nocheckin=1
+ro.kernel.android.checkjni=0
+persist.sys.use_dithering=0
+ro.kernel.checkjni=0
+debug.kill_allocating_task=0
+ro.debuggable=1
+dalvik.vm.checkjni=false
+debugtool.anrhistory=0
+profiler.debugmonitor=false
+profiler.launch=false
+profiler.hung.dumpdobugreport=false
+persist.sys.scrollingcache=3
+power_supply.wakeup=enable
+
+
 # Davlik Heap
-dalvik.vm.heapstartsize=8m
+dalvik.vm.heapstartsize=16m
 dalvik.vm.heapgrowthlimit=288m
 dalvik.vm.heapsize=768m
 dalvik.vm.heaptargetutilization=0.75
-dalvik.vm.heapminfree=512k
+dalvik.vm.heapminfree=2m
 dalvik.vm.heapmaxfree=8m
 
 ro.sys.sdcardfs.legacy-mounting=1
