@@ -5,7 +5,7 @@ ro.sf.disable_triple_buffer=0
 ro.sf.lcd_density=360
 
 # Sdcardfs
-ro.sys.sdcardfs=false
+ro.sys.sdcardfs=true
 
 #ADB
 persist.adb.notify=0
