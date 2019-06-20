@@ -23,7 +23,7 @@ $(call inherit-product, device/Samsung/j7xelte/device.mk)
 # Device identifier. This must come after all inclusions
 TARGET_VENDOR := Samsung
 PRODUCT_DEVICE := j7xelte
-PRODUCT_NAME := bootleg_j7xelte
+PRODUCT_NAME := lineage_j7xelte
 PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := J710F
 PRODUCT_MANUFACTURER := Samsung
